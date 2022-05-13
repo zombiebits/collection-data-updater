@@ -15,9 +15,9 @@ export default class ERC721CollectionStatusProvider implements CollectionStatusP
 
   public async getTokenIds(): Promise<BigNumber[]> {
     if (this.tokenIds.length === 0) {
-      const maxSupply = await this.contract.MAX_TOKENS();
+      const MAX_TOKENS = await this.contract.MAX_TOKENS();
       
-      for (let i = this.startTokenId; i.lte(maxSupply); i = i.add(1)) {
+      for (let i = this.startTokenId; i.lte(MAX_TOKENS); i = i.add(1)) {
         this.tokenIds.push(i);
       }
     }

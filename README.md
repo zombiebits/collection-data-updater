@@ -9,13 +9,13 @@ This project was created for educational purposes, please refer to the [LICENCE]
 
 Using NPM:
 ```
-npm i @hashlips-lab/collection-data-updater
+npm i @zombiebits/collection-data-updater
 ```
 
 Using Yarn:
 ```
-yarn add @hashlips-lab/collection-data-updater
+yarn add @zombiebits/collection-data-updater
 ```
 
 ## Projects using this library
-- [Safe NFT Metadata Provider](https://github.com/hashlips-lab/safe-nft-metadata-provider): an easy and flexible tool to hide your tokens until they are minted
+- [Safe NFT Metadata Provider](https://github.com/zombiebits/safe-nft-metadata-provider): an easy and flexible tool to hide your tokens until they are minted
