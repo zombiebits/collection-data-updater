@@ -8,7 +8,7 @@ export default class ERC721Contract extends Contract {
       super(
         address,
         [
-          "function maxSupply() public view returns (uint256)",
+          "function MAX_TOKENS() public view returns (uint256)",
           "function totalSupply() public view returns (uint256)",
           "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
         ],
